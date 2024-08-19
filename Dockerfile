@@ -1,3 +1,4 @@
+--------------------with mavne and tomcat images---------
 #FROM maven:3.8.4-eclipse-temurin-17 AS build
 #RUN mkdir /app
 #WORKDIR /app
@@ -9,14 +10,14 @@
 #RUN cp -R  /usr/local/tomcat/webapps.dist/*  /usr/local/tomcat/webapps
 
 
-
+------------------------with tomcat image mavne need to be install and run goal before-------------
 # we need to install mavne and run goal make it ready war file 
 # FROM tomcat:latest
 # RUN cp -R  /usr/local/tomcat/webapps.dist/*  /usr/local/tomcat/webapps
 # COPY /webapp/target/*.war /usr/local/tomcat/webapps
 
 
-
+--------------------taking maven on ubuntu and tomacate image ------------------
 # FROM ubuntu:latest as builder
 # RUN apt-get update && \
 #     apt-get install -y openjdk-8-jdk wget unzip
@@ -42,7 +43,7 @@
 
 
 
-
+----------------maven and tomcate on ubuntu ------------------------
 
 # Use the official Ubuntu image as the base image for building the Maven project
 FROM ubuntu:20.04 AS build
