@@ -73,8 +73,7 @@ COPY . .
 RUN mvn clean package
 
 # Debug: List the contents of the target directory to confirm the WAR file
-RUN ls -al /app/target
-
+RUN ls -al /app/webapp/target
 # Use the official Ubuntu image as the base for the runtime environment
 FROM ubuntu:20.04
 
@@ -106,8 +105,7 @@ ENV PATH=$CATALINA_HOME/bin:$PATH
 EXPOSE 8080
 
 # Copy the generated WAR file from the build stage
-COPY --from=build /app/target/webapp.war /opt/tomcat/webapps/webapp.war
-
+COPY --from=build /app/webapp/target/webapp.war /opt/tomcat/webapps/webapp.war
 # Start Tomcat
 CMD ["/opt/tomcat/bin/catalina.sh", "run"]
 
