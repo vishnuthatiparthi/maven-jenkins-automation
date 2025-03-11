@@ -1,6 +1,6 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>New user Register for DevOps with multicloud Real time training2025 at Naresh-IT HYDERABAD </h1>
+    <h1>New user Register for DevOps with AWS, Azure, GCP Real time training 2025 at Naresh-IT HYDERABAD </h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
      
