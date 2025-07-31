@@ -1,0 +1,213 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+usage: java org.apache.catalina.startup.Catalina [ -config {pathname} ] [ -nonaming ] [ -generateCode [ {pathname} ] ] [ -useGeneratedCode ] { -help | start | stop }
+31-Jul-2025 04:17:49.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.86
+31-Jul-2025 04:17:49.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 08:15:12 UTC
+31-Jul-2025 04:17:49.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.86.0
+31-Jul-2025 04:17:49.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Jul-2025 04:17:49.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.144-170.251.amzn2023.x86_64
+31-Jul-2025 04:17:49.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Jul-2025 04:17:49.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-amazon-corretto.x86_64
+31-Jul-2025 04:17:49.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.16+8-LTS
+31-Jul-2025 04:17:49.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+31-Jul-2025 04:17:49.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /root/project-1-maven-jenkins-CICD-docker-eks-/tomcat
+31-Jul-2025 04:17:49.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /root/project-1-maven-jenkins-CICD-docker-eks-/tomcat
+31-Jul-2025 04:17:49.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Jul-2025 04:17:49.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Jul-2025 04:17:49.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+31-Jul-2025 04:17:49.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Jul-2025 04:17:49.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Jul-2025 04:17:49.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/conf/logging.properties
+31-Jul-2025 04:17:49.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Jul-2025 04:17:49.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-Jul-2025 04:17:49.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Jul-2025 04:17:49.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+31-Jul-2025 04:17:49.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-Jul-2025 04:17:49.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat
+31-Jul-2025 04:17:49.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat
+31-Jul-2025 04:17:49.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/temp
+31-Jul-2025 04:17:49.698 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+31-Jul-2025 04:17:50.079 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+31-Jul-2025 04:17:50.115 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [682] milliseconds
+31-Jul-2025 04:17:50.163 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Jul-2025 04:17:50.163 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.86]
+31-Jul-2025 04:17:50.176 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/ROOT]
+31-Jul-2025 04:17:50.508 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/ROOT] has finished in [332] ms
+31-Jul-2025 04:17:50.509 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/docs]
+31-Jul-2025 04:17:50.550 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/docs] has finished in [41] ms
+31-Jul-2025 04:17:50.551 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/examples]
+31-Jul-2025 04:17:50.819 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/examples] has finished in [268] ms
+31-Jul-2025 04:17:50.820 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/host-manager]
+31-Jul-2025 04:17:50.852 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/host-manager] has finished in [32] ms
+31-Jul-2025 04:17:50.853 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/manager]
+31-Jul-2025 04:17:50.881 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/manager] has finished in [29] ms
+31-Jul-2025 04:17:50.890 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+31-Jul-2025 04:17:50.902 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [785] milliseconds
+31-Jul-2025 04:21:40.923 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+31-Jul-2025 04:21:40.940 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/examples]
+31-Jul-2025 04:21:40.953 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/host-manager]
+31-Jul-2025 04:21:40.957 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+31-Jul-2025 04:21:40.962 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/docs]
+31-Jul-2025 04:21:40.968 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/ROOT]
+31-Jul-2025 04:21:40.987 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/ROOT] has finished in [19] ms
+31-Jul-2025 04:21:40.987 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/docs]
+31-Jul-2025 04:21:41.015 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/docs] has finished in [27] ms
+31-Jul-2025 04:21:41.015 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/examples]
+31-Jul-2025 04:21:41.176 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/examples] has finished in [161] ms
+31-Jul-2025 04:21:41.178 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/host-manager]
+31-Jul-2025 04:21:41.198 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/host-manager] has finished in [20] ms
+31-Jul-2025 04:21:41.200 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/manager]
+31-Jul-2025 04:21:41.230 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/manager] has finished in [30] ms
+31-Jul-2025 04:24:01.247 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/host-manager]
+31-Jul-2025 04:24:01.250 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/host-manager]
+31-Jul-2025 04:24:01.272 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/host-manager] has finished in [21] ms
+31-Jul-2025 04:25:51.284 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+31-Jul-2025 04:25:51.287 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/manager]
+31-Jul-2025 04:25:51.302 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/manager] has finished in [14] ms
+31-Jul-2025 04:28:31.329 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/conf/tomcat-users.xml]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Jul-2025 04:42:43.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.86
+31-Jul-2025 04:42:43.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 08:15:12 UTC
+31-Jul-2025 04:42:43.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.86.0
+31-Jul-2025 04:42:43.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Jul-2025 04:42:43.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.144-170.251.amzn2023.x86_64
+31-Jul-2025 04:42:43.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Jul-2025 04:42:43.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-amazon-corretto.x86_64
+31-Jul-2025 04:42:43.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.16+8-LTS
+31-Jul-2025 04:42:43.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+31-Jul-2025 04:42:43.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /root/project-1-maven-jenkins-CICD-docker-eks-/tomcat
+31-Jul-2025 04:42:43.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /root/project-1-maven-jenkins-CICD-docker-eks-/tomcat
+31-Jul-2025 04:42:43.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Jul-2025 04:42:43.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Jul-2025 04:42:43.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+31-Jul-2025 04:42:43.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Jul-2025 04:42:43.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Jul-2025 04:42:43.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/conf/logging.properties
+31-Jul-2025 04:42:43.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Jul-2025 04:42:43.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-Jul-2025 04:42:43.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Jul-2025 04:42:43.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+31-Jul-2025 04:42:43.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-Jul-2025 04:42:43.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat
+31-Jul-2025 04:42:43.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat
+31-Jul-2025 04:42:43.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/temp
+31-Jul-2025 04:42:43.560 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+31-Jul-2025 04:42:43.971 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+31-Jul-2025 04:42:43.991 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8081"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1046)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1334)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1347)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 13 more
+31-Jul-2025 04:42:43.993 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [690] milliseconds
+31-Jul-2025 04:42:44.051 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Jul-2025 04:42:44.052 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.86]
+31-Jul-2025 04:42:44.060 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/ROOT]
+31-Jul-2025 04:42:44.371 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/ROOT] has finished in [311] ms
+31-Jul-2025 04:42:44.372 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/docs]
+31-Jul-2025 04:42:44.409 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/docs] has finished in [38] ms
+31-Jul-2025 04:42:44.412 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/examples]
+31-Jul-2025 04:42:44.712 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/examples] has finished in [300] ms
+31-Jul-2025 04:42:44.712 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/host-manager]
+31-Jul-2025 04:42:44.745 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/host-manager] has finished in [33] ms
+31-Jul-2025 04:42:44.745 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/manager]
+31-Jul-2025 04:42:44.774 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/manager] has finished in [29] ms
+31-Jul-2025 04:42:44.779 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [785] milliseconds
+31-Jul-2025 04:42:44.782 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:581)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:825)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:773)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+31-Jul-2025 04:42:44.782 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+31-Jul-2025 04:42:44.782 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Jul-2025 04:42:44.808 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+31-Jul-2025 04:42:44.810 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+31-Jul-2025 04:57:21.498 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/webapp.war]
+31-Jul-2025 04:57:21.516 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/webapp.war] has finished in [18] ms
+31-Jul-2025 05:23:11.653 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp]
+31-Jul-2025 05:23:11.664 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/webapp.war]
+31-Jul-2025 05:23:11.677 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/webapp.war] has finished in [13] ms
+31-Jul-2025 05:31:59.222 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+31-Jul-2025 05:31:59.222 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+31-Jul-2025 05:31:59.229 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Jul-2025 05:31:59.252 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+31-Jul-2025 05:31:59.261 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Jul-2025 05:32:15.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.86
+31-Jul-2025 05:32:15.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 08:15:12 UTC
+31-Jul-2025 05:32:15.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.86.0
+31-Jul-2025 05:32:15.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Jul-2025 05:32:15.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.144-170.251.amzn2023.x86_64
+31-Jul-2025 05:32:15.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Jul-2025 05:32:15.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-amazon-corretto.x86_64
+31-Jul-2025 05:32:15.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.16+8-LTS
+31-Jul-2025 05:32:15.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+31-Jul-2025 05:32:15.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /root/project-1-maven-jenkins-CICD-docker-eks-/tomcat
+31-Jul-2025 05:32:15.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /root/project-1-maven-jenkins-CICD-docker-eks-/tomcat
+31-Jul-2025 05:32:15.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Jul-2025 05:32:15.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Jul-2025 05:32:15.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+31-Jul-2025 05:32:15.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Jul-2025 05:32:15.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Jul-2025 05:32:15.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/conf/logging.properties
+31-Jul-2025 05:32:15.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Jul-2025 05:32:15.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-Jul-2025 05:32:15.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Jul-2025 05:32:15.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+31-Jul-2025 05:32:15.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-Jul-2025 05:32:15.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat
+31-Jul-2025 05:32:15.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat
+31-Jul-2025 05:32:15.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/temp
+31-Jul-2025 05:32:15.216 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+31-Jul-2025 05:32:15.603 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+31-Jul-2025 05:32:15.642 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [673] milliseconds
+31-Jul-2025 05:32:15.695 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Jul-2025 05:32:15.696 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.86]
+31-Jul-2025 05:32:15.712 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/webapp.war]
+31-Jul-2025 05:32:16.022 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/webapp.war] has finished in [310] ms
+31-Jul-2025 05:32:16.023 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/ROOT]
+31-Jul-2025 05:32:16.061 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/ROOT] has finished in [38] ms
+31-Jul-2025 05:32:16.062 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/docs]
+31-Jul-2025 05:32:16.106 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/docs] has finished in [43] ms
+31-Jul-2025 05:32:16.106 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/examples]
+31-Jul-2025 05:32:16.398 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/examples] has finished in [291] ms
+31-Jul-2025 05:32:16.398 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/host-manager]
+31-Jul-2025 05:32:16.427 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/host-manager] has finished in [29] ms
+31-Jul-2025 05:32:16.427 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/manager]
+31-Jul-2025 05:32:16.454 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/project-1-maven-jenkins-CICD-docker-eks-/tomcat/webapps/manager] has finished in [27] ms
+31-Jul-2025 05:32:16.458 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+31-Jul-2025 05:32:16.468 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [825] milliseconds
