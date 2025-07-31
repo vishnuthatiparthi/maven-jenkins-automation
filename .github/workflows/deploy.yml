@@ -27,7 +27,7 @@ jobs:
 
     - name: Deploy to Tomcat
       env:
-        TOMCAT_URL: http://13.233.92.230:8081/
+        TOMCAT_URL: http://174.129.81.48:8081/
         TOMCAT_USER: ${{ secrets.TOMCAT_USER }}
         TOMCAT_PASS: ${{ secrets.TOMCAT_PASS }}
       run: |
