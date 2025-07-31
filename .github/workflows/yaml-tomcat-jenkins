@@ -1,0 +1,57 @@
+name: Maven Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    env:
+      JAVA_HOME: /usr/lib/jvm/java-17-amazon-corretto
+      MAVEN_OPTS: "-Dmaven.test.failure.ignore=false"
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          ref: main
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: 17
+
+      - name: Cache Maven packages
+        uses: actions/cache@v3
+        with:
+          path: ~/.m2/repository
+          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+          restore-keys: |
+            ${{ runner.os }}-maven
+
+      - name: Maven Clean
+        run: mvn clean
+
+      - name: Maven Test
+        run: mvn test
+
+      - name: Maven Install
+        run: mvn install
+
+      - name: Deploy WAR to Tomcat
+        uses: appleboy/scp-action@v0.1.5
+        with:
+          host: 174.129.81.48
+          username: ${{ secrets.TOMCAT_USERNAME }}
+          password: ${{ secrets.TOMCAT_PASSWORD }}
+          source: '**/*.war'
+          target: '/path/to/tomcat/webapps/'
+      
+      # Alternatively, use a deploy plugin via SSH or curl if Tomcat manager is enabled:
+      # - name: Deploy WAR via Tomcat Manager
+      #   run: |
+      #     curl --upload-file target/*.war "http://$TOMCAT_USERNAME:$TOMCAT_PASSWORD@174.129.81.48:8081/manager/text/deploy?path=/yourcontext&update=true"
