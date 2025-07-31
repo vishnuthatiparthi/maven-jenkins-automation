@@ -75,3 +75,4 @@
 27.6.122.110 - - [31/Jul/2025:05:33:10 +0000] "GET /webapp/action_page.php?Name=vishnu+vardhan&mobile=9999999999&email=viva%40gmail&psw=jsdjk&psw-repeat=sjgvd HTTP/1.1" 404 777
 157.55.39.13 - - [31/Jul/2025:05:34:20 +0000] "GET /manager/html HTTP/1.1" 401 2499
 157.55.39.8 - - [31/Jul/2025:05:35:14 +0000] "GET /docs/config/ HTTP/1.1" 403 877
+207.46.13.124 - - [31/Jul/2025:05:47:54 +0000] "GET /docs/config/ HTTP/1.1" 403 877
